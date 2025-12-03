@@ -1,5 +1,5 @@
 body {
-    background-color: #FDF5E6;
+    background-color:rgb(253, 251, 243);
     font-family: Arial, sans-serif;
 
 }
@@ -12,7 +12,7 @@ header {
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(8px);
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    height: 10px;
+    height: 30px;
    border-radius: 15px;
    top: 0;
    
