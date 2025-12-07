@@ -157,11 +157,13 @@ footer {
 }
 
 .layout {
-    display: flex;
-    gap: 20px;  
+     display: flex;
+    gap: 40px;       /* ← увеличиваем расстояние между aside и меню */
     align-items: flex-start;
     max-width: 1200px;
+    margin: 50px auto;   /* ← центрирует блок на странице */
 }
+
 .content {
     flex: 1;    
     align-items: stretch;
