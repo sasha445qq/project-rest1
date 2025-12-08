@@ -217,7 +217,7 @@
     .sidebar {
         position: sticky;
         width: 200px;
-        max-height: 450px;
+        max-height: 550px;
         top:100px;
         padding: 15px;
         background: #fff;
