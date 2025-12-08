@@ -60,6 +60,16 @@
         gap: 50px;
 
     }
+
+    .home2 {display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        max-width: 1300px;
+        margin: 50px auto;
+        padding: 50px;
+        gap: 50px;
+    }
+
     .hero-text h2 {
         font-size: 55px;
         font-weight: 900;
@@ -68,7 +78,15 @@
 
     }
 
-    .hero-text p {
+     .hero-text2 h2 {
+        font-size: 45px;
+        font-weight: 600;
+        color: black;
+        margin-bottom: 20px;
+
+    }
+
+    .hero-text p, .hero-text2 p {
         font-size: 18px;
         color: #666;
         line-height: 1.6;
@@ -143,6 +161,13 @@
     .image-rest img {
     width: 550px;
     height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+ .image-rest2 img {
+    width: 550px;
+    height: 600px;
     object-fit: cover;
     border-radius: 15px;
 }
@@ -325,6 +350,12 @@
         color: #787a75;
     }
 
+    .hero-drink-img {
+        width: 400px;
+        height: 700px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
 
     .dilivery {
         max-width: 800px;
