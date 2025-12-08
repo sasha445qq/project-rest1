@@ -53,7 +53,7 @@ nav a:hover {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        max-width: 1200px;
+        max-width: 1100px;
         margin: 50px auto;
         border-radius: 15px;
         background-color:white;
@@ -129,7 +129,9 @@ nav a:hover {
     }
 .img-menu {
     width: 200px;
+    height: 200px;
     border-radius: 15px;
+    object-fit: cover;
 }
 
 .order-btn {
@@ -158,11 +160,11 @@ footer {
 
 .layout {
      display: flex;
-    gap: 40px;       /* ← увеличиваем расстояние между aside и меню */
+    gap: 40px;
     align-items: flex-start;
     max-width: 1200px;
-    margin: 50px auto;   /* ← центрирует блок на странице */
-}
+    margin: 50px auto;
+    }
 
 .content {
     flex: 1;    
@@ -192,7 +194,7 @@ footer {
 }
 .sidebar ul li a {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 20px 20px;
