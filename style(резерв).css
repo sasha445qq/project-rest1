@@ -1,20 +1,25 @@
+        * {
+  /*outline: 1px solid red;*/
+}
+        
         body {
             background-color:rgb(253, 251, 243);
             font-family: Arial, sans-serif;
-
+           
         }
         header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px;
+            padding: 10px 40px;
             position: sticky;
             background: rgba(255, 255, 255, 0.8);
             backdrop-filter: blur(8px);
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            height: 30px;
-            border-radius: 15px;
+            border-radius: 0 0 15px 15px;
+            height: 50px;
             top: 0;
+            z-index: 1000;
         }
         .logo {
             font-weight: bold;
@@ -230,7 +235,7 @@
             padding: 10px 20px;
             cursor: pointer;
             margin-top: 10px;
-            display: flex;
+            
         }
         .order-btn:hover {
             background-color: #cfa020;
@@ -238,19 +243,14 @@
         footer {
             text-align: center;
             padding: 20px;
-            background-color: rgba(255, 255, 255, 0.8)
-            backdrop-filter: blur(8px);
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            color:#fff;
+            color:black;
             margin-top: 50px;
-            border-radius: 15px;
         }
 
         .layout {
             display: flex;
             gap: 40px;
             align-items: flex-start;
-            max-width: 1200px;
             margin: 50px auto;
             }
 
@@ -436,14 +436,8 @@
             margin-bottom: 20px;
         }
 
-        .main {
-            max-width: 300px;
-            margin: 0 auto;
-            padding: 20px;
-        }
         
         .contacts {
-         background: #fdf8ee;
         padding: 40px;
         }
 
@@ -494,5 +488,12 @@
         margin-top: 10px;
         }
 
-
+        .wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        }   
+        .page {
+        padding-top: 40px;
+        }
     

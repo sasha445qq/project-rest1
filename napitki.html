@@ -1,8 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style(резерв).css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
 
-<link rel="stylesheet" href="style(резерв).css">   
 
- <header>
-        <div class="logo">
+ <body>
+  <div class="wrapper">
+
+    <header>
+    <div class="logo">
             <a href="index.html">
                 <p>Logo</p>
             </a>
@@ -11,15 +22,16 @@
             <nav>
                 <ul>
                    <li><a href="index.html">Блюда</a></li>
-                   <li><a href="#napitki">Напитки</a></li>
-                     <li><a href="dilivery.html ">Доставка</a></li>
+                   <li><a href="napitki.html">Напитки</a></li>
+                     <li><a href="dilivery.html">Доставка</a></li>
                      <li><a href="contacts.html">Контакты</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+     <main class="page">
 
-    <section class="home2">
+     <section class="home2">
     <div class="hero-text2">
 
         <h2>Погода бывает<br> разной, но с бокалом,<br>она всегда<br>красочнее...</h2>
@@ -27,7 +39,7 @@
         <p>Тщательно подобранный выбор изысканных вин, алкогольных и не<br>алкогольных напитков, а также фирменных коктейлей станет<br> идеальным дополнением к нашей восхитительной кухне.</p>
 
         <div class="buttons">
-            <a href="#drinks" class="btn-main">К меню напитков</a>
+            <a href="#menu" class="btn-main">К меню напитков</a>
         </div>
     </div>
 
@@ -35,7 +47,7 @@
         <img src="image/hero-image-drinks-2.webp" alt="Ресторан" class="hero-drink-img">
     </div>
 
-</section>
+    </section>
     <div class="layout">
         <aside class="sidebar">     
      <ul>
@@ -47,15 +59,11 @@
         <li><a href="#beer">Пиво</a></li>
     </ul>
         </aside>
-        
-    
 
-    <main>
-        <div class="content" id="drinks">
-            
-          
-
-            <section class="coffee" id="coffee">
+   
+      <div class="content" id="menu">
+        <div class="drinks">
+            <section class="menu-section" id="coffee">
                 <h2>Кофе</h2>
                   <div class="container-menu">
 
@@ -87,7 +95,7 @@
                     </div>
 
                     <div class="card-menu">
-                        <img src="image/kapvegan.jph" alt="Веган К" class="img-menu">
+                        <img src="image/kapvegan.jpg" alt="Веган К" class="img-menu">
                         <h3>Капучино Vegan</h3>
                         <div class="card-footer">
                             <span class="price">42 L</span>
@@ -499,8 +507,10 @@
                         </div>
                     </div>
                      </section>
-            
-                </div>
-            </section>
-        </div>
     </main>
+<footer>
+      <p>&copy; 2024 Ресторан. Все права защищены.</p>
+    </footer>
+  </div>
+</body>
+</html>
